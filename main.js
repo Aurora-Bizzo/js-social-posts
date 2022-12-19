@@ -135,7 +135,7 @@ function isPostLiked(postId) {
     return userLikes.includes(postId);
 }
 
-const likeButtons = document.querySelectorAll('.js-like-buton');
+const likeButtons = document.querySelectorAll('.js-like-button');
 const likeCounters = document.querySelectorAll('.js-likes-counter');
 
 for (let i = 0; i < likeButtons.length; i++) {
